@@ -7,7 +7,8 @@
 }
 
 body{
-    background-color: #004e92;
+	background-color: #010c16;
+	
 
 }
 
@@ -21,6 +22,13 @@ body{
 h1{
     font-size: 3.5rem;
 	text-align: center;
+}
+
+h5.dev{
+    font-size: 0.7rem;
+	text-align: center;
+	font-family: monospace;
+	letter-spacing: 2px;
 }
 
 p{
@@ -43,6 +51,7 @@ p{
 	align-items: center;
 	justify-content: center;
 	background-color: #000428;
+	margin: 3px;
 	color: #fff;
 	height: 40px;
 	width: 40px;
@@ -51,13 +60,13 @@ p{
     text-decoration: none;
 }
 
+a{
+	text-decoration: none;
+}
+
 .social-icon:hover{
     background-color: #0b124d;
 	color: #0062ff;
-}
-
-a{
-	text-decoration:none;
 }
 
 a:focus {
@@ -81,5 +90,6 @@ a:focus {
 	.social-icon {
 		height: 25px;
 		width: 25px;
+		margin: 2px;
 	}
 }
